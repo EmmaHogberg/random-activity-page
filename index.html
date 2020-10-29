@@ -4,27 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Karla&display=swap"
+      rel="stylesheet"
+    />
     <title>Emma kodar fritt</title>
   </head>
 
   <body>
-    <header>
-      <h1>Vad ska vi göra?</h1>
-    </header>
+    <div class="container">
+      <header class="theme">
+        <h1>Vad ska vi göra?</h1>
+        <div class="theme-buttons">
+          <button class="pink-button" type="button" data-color="pink">
+            Rosa
+          </button>
+          <button class="green-button" data-color="green" type="button">
+            Grön
+          </button>
+          <button class="blue-button" data-color="blue" type="button">
+            Blå
+          </button>
+        </div>
+      </header>
 
-    <div class="random-activity-container">
-      <button class="random-button">Slumpa fram en aktivitet</button>
-      <div class="activity-container"></div>
+      <div class="random-activity-container">
+        <button class="random-button">Slumpa fram en aktivitet</button>
+        <button class="tv-button">Slumpa fram en TV-aktivitet</button>
+        <div class="activity-container"></div>
+      </div>
+
+      <footer class="theme">
+        <p>Dela med dig av sidan genom att kopiera länken nedan</p>
+        <button class="reload-button" type="button">Ladda om sidan</button>
+        <input class="footer-input" type="text" value="" />
+        <button class="footer-button" type="button">Kopiera URL</button>
+      </footer>
     </div>
-
-    <footer class="footer">
-      <p>
-        Om du tycker om sidan så kopiera länken nedan och dela med andra som du
-        tror skulle uppskatta den
-      </p>
-      <input class="footer-input" type="text" value="" id="urlInput" />
-      <button class="footer-button">Kopiera URL</button>
-    </footer>
     <script src="./app.js"></script>
   </body>
 </html>

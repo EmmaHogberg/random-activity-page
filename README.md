@@ -19,3 +19,6 @@ Vad du bygger spelar inte så stor roll, så länge det används korrekt. Använ
 Lägg till två länkar här när du är klar. Länka till:
 - Din Github Pages sida
 - Din kod på Github
+
+![Ex1](https://user-images.githubusercontent.com/70634183/132073744-1a807b37-4c8b-45ed-98c7-771751d11710.jpg)
+![Ex2](https://user-images.githubusercontent.com/70634183/132073746-4d28f2c5-8497-4fd5-a973-d0aa9e71418a.jpg)
